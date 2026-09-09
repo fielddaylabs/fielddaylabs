@@ -4,3 +4,4 @@
  .brand-image{object-fit:contain;position:absolute;z-index:2}.moveroom-image{width:62%;height:auto;left:19%;top:44%;filter:brightness(1.15)}.move-visual{background:#2a2a27}.brand-photo{object-fit:cover;object-position:center;height:100%}.tally-visual{background:#861e57}.tally-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,4,16,.15),rgba(21,4,16,.55));display:grid;place-items:center;z-index:1}.tally-overlay .brand-image{width:68%;height:auto}
  .header-mark{width:30px;height:30px;color:var(--accent)}.stacked-lockup{display:flex;flex-direction:column;font-size:9px;line-height:.88;letter-spacing:.11em;color:var(--ink)}
  .header-lockup{display:block;width:132px;height:auto}.header-mark{display:none}
+ .calc-visual{background:#141d27}.calc-image{width:72%;height:auto;left:14%;top:43%;filter:brightness(1.1)}.header-lockup{width:156px}
