@@ -5,3 +5,4 @@
  .header-mark{width:30px;height:30px;color:var(--accent)}.stacked-lockup{display:flex;flex-direction:column;font-size:9px;line-height:.88;letter-spacing:.11em;color:var(--ink)}
  .header-lockup{display:block;width:132px;height:auto}.header-mark{display:none}
  .calc-visual{background:#141d27}.calc-image{width:72%;height:auto;left:14%;top:43%;filter:brightness(1.1)}.header-lockup{width:156px}
+ h1{margin-top:24px}
