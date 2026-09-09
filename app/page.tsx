@@ -14,7 +14,7 @@ export default function Home() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
   const y = useTransform(scrollYProgress, [0, .35], [0, -110]);
   return <main ref={ref}>
-    <nav className="nav"><a href="#top" className="wordmark"><img src="/field-day-labs-mark.svg" alt="" className="header-mark" /><span className="stacked-lockup"><span>FIELD</span><span>DAY</span><span>LABS</span></span></a><div className="nav-right"><span>NYC / WORLDWIDE</span><a className="nav-link" href="#work">See the work <span>↘</span></a></div></nav>
+    <nav className="nav"><a href="#top" className="wordmark"><img src="/logos/lockup-transparent.svg" alt="Field Day Labs" className="header-lockup" /></a><div className="nav-right"><span>NYC / WORLDWIDE</span><a className="nav-link" href="#work">See the work <span>↘</span></a></div></nav>
     <section id="top" className="hero">
       <div className="hero-copy"><div className="eyebrow"><span>INDEPENDENT PRODUCTS</span><span>EST. 2026</span></div><h1>Make room<br /><em>for wonder.</em></h1><p>Field Day Labs is a home for independent products built to make everyday life more expansive.</p><a className="circle-cta" href="#work" aria-label="Explore the work">Explore<br />the work <span>↓</span></a></div>
       <motion.div className="hero-art" style={{ y }}><Scene /></motion.div><div className="hero-index">01 <span>—</span> 04</div>
