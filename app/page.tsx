@@ -15,9 +15,9 @@ export default function Home() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
   const y = useTransform(scrollYProgress, [0, .35], [0, -110]);
   return <main ref={ref}>
-    <nav className="nav"><a href="#top" className="wordmark"><img src="/field-day-labs-lockup.svg" alt="Field Day Labs" className="header-lockup" /></a><div className="nav-right"><span>NYC / WORLDWIDE</span><a className="nav-link" href="#work">See the work <span>↘</span></a></div></nav>
+    <nav className="nav"><a href="#top" className="wordmark"><Image src="/logos/logo-transparent.png" alt="Field Day Labs" width={632} height={312} className="header-lockup" preload /></a><div className="nav-right"><span>NYC / WORLDWIDE</span><a className="nav-link" href="#work">See the work <span>↘</span></a></div></nav>
     <section id="top" className="hero">
-      <div className="hero-copy"><h1>Make room<br /><em>for wonder.</em></h1><p>Field Day Labs is a home for independent products built to make everyday life more expansive.</p><a className="circle-cta" href="#work" aria-label="Explore the work">Explore<br />the work <span>↓</span></a></div>
+      <div className="hero-copy"><h1>Make room<br /><em>for wonder.</em></h1><p>Field Day Labs is a home for independent products built to make everyday life more expansive.</p></div>
       <motion.div className="hero-art" style={{ y }}><Scene /></motion.div><div className="hero-index">01 <span>—</span> 04</div>
     </section>
     <section className="statement"><div className="section-label">[ OUR POINT OF VIEW ]</div><div className="statement-copy"><p className="big-copy">The best products don’t ask for attention. <span>They earn a place in your life.</span></p><div className="statement-note">We’re building a small, focused company around a simple idea: useful can also feel alive.</div></div></section>
