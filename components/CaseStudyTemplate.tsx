@@ -18,7 +18,6 @@ export default function CaseStudyTemplate({ study, html }: { study: CaseStudy; h
       <article>
         <header className="case-study-hero">
           <div className="case-study-hero-inner">
-            <p className="case-study-kicker"><span>{study.kicker}</span><span>{study.category}</span></p>
             <h1>{study.title}</h1>
             <p className="case-study-lede">{study.lede}</p>
             <div className="case-study-actions"><ActionLink link={study.primaryCta} primary />{study.secondaryCta && <ActionLink link={study.secondaryCta} />}</div>

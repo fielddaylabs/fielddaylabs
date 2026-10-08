@@ -1,6 +1,5 @@
 ---
 slug: algolia-agent-handoff
-kicker: Collaboration / Authors Collective × Field Day Labs
 title: A clean handoff between specialized agents
 description: How Field Day Labs built the embedded specialized-agent handoff example for Authors Collective’s Algolia article.
 lede: A small, native-feeling demo built for an article about coordinating specialized agents without handing privileged decisions to the browser.

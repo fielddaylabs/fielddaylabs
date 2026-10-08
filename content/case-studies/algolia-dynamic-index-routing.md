@@ -1,6 +1,5 @@
 ---
 slug: algolia-dynamic-index-routing
-kicker: Collaboration / Authors Collective × Field Day Labs
 title: A server-controlled routing demo for Agent Studio
 description: How Field Day Labs built a focused Agent Studio demo that makes request-time search scope visible without trusting the browser with privileged routing decisions.
 lede: One agent, two application contexts, and a server-owned route map that keeps the search scope explicit before each request.
