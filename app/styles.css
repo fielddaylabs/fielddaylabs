@@ -26,3 +26,8 @@
 .case-study-prose{color:#aeb8af}.case-study-prose h2{color:var(--case-paper)}.case-study-prose li{border-left:1px solid #d1a45e}.case-study-prose strong{color:var(--case-paper)}.case-study-prose a{color:var(--case-paper);text-decoration-color:#d1a45e}.case-study-prose blockquote{border-left:1px solid #d1a45e;color:var(--case-paper)}
 .case-study-footer{border-color:#3d4b44;color:#8e9b91}.case-study-footer a{color:var(--case-paper);text-decoration-color:#d1a45e}.case-study-closing{background:#b1874d;color:#17231f}.case-study-closing .closing-top,.case-study-closing .closing-foot{color:#314438}.case-study-closing h2 em{color:#f1eee6}.case-study-closing .email-link{border-color:#5d765e}.case-study-closing .email-link span{color:#17231f}
 @media(max-width:760px){.case-study-hero h1{font-size:clamp(3.5rem,15vw,5.5rem)}}
+
+/* Keep the case-study hero exactly within the viewport below the nav. */
+.case-study-hero{height:calc(100vh - 82px)}
+@supports (height:100dvh){.case-study-hero{height:calc(100dvh - 82px)}}
+@media(max-width:760px){.case-study-hero{height:calc(100vh - 68px)}@supports (height:100dvh){.case-study-hero{height:calc(100dvh - 68px)}}}
