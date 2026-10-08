@@ -20,7 +20,7 @@ export default function CaseStudyTemplate({ study, html }: { study: CaseStudy; h
           <div className="case-study-hero-inner">
             <h1>{study.title}</h1>
             <p className="case-study-lede">{study.lede}</p>
-            <div className="case-study-actions"><ActionLink link={study.primaryCta} primary />{study.secondaryCta && <ActionLink link={study.secondaryCta} />}</div>
+            <div className="case-study-actions"><ActionLink link={study.primaryCta} primary />{study.secondaryCta && <ActionLink link={study.secondaryCta} />}{study.articleUrl && <ActionLink link={{ label: "Read the Algolia article", href: study.articleUrl }} />}</div>
           </div>
         </header>
 

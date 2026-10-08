@@ -7,6 +7,8 @@ year: "2026"
 client: Algolia
 category: Embed systems + technical content
 canonicalUrl: https://www.fieldday.dev/work/algolia-agent-handoff/
+# Add the published Algolia article URL here when available:
+# articleUrl: https://www.algolia.com/blog/...
 ctas:
   - label: Open the demo
     href: https://authorscollective.org/agent-handoff/
@@ -22,6 +24,10 @@ facts:
   - label: Boundary
     value: Server-owned routing
 roles:
+  - label: Client
+    name: Algolia
+    href: https://www.algolia.com/
+    description: The company and technical audience at the center of this case study.
   - label: Editorial direction
     name: Authors Collective
     href: https://authorscollective.org/work/algolia-agent-handoff/
