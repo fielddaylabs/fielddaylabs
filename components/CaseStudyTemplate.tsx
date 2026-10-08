@@ -35,7 +35,6 @@ export default function CaseStudyTemplate({ study, html }: { study: CaseStudy; h
           <div className="case-study-prose" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
 
-        <footer className="case-study-footer"><p>A case study for {study.client}, by {study.roles.map((role, index) => <span key={role.name}>{index > 0 && " · "}{role.href ? <a href={role.href}>{role.name}</a> : role.name}</span>)}.</p><a href={study.primaryCta.href}>{study.primaryCta.label} <span aria-hidden="true">↗</span></a></footer>
       </article>
 
       <section className="closing case-study-closing"><div className="closing-top"><span>FIELD DAY LABS / {study.year}</span><span>BUILT WITH INTENT</span></div><h2>Good work<br /><em>travels well.</em></h2><a href="mailto:hello@fielddaylabs.com" className="email-link">hello@fielddaylabs.com <span aria-hidden="true">↗</span></a><div className="closing-foot"><span>© FIELD DAY LABS LLC</span><span>SOUTH CAROLINA · USA</span></div></section>
