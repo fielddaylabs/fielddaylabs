@@ -31,3 +31,12 @@
 .case-study-hero{height:calc(100vh - 82px)}
 @supports (height:100dvh){.case-study-hero{height:calc(100dvh - 82px)}}
 @media(max-width:760px){.case-study-hero{height:calc(100vh - 68px)}@supports (height:100dvh){.case-study-hero{height:calc(100dvh - 68px)}}}
+
+/* Fit the hero content to the fixed viewport frame instead of letting it spill into the page below. */
+.case-study-hero{display:flex;align-items:center;overflow:hidden}
+.case-study-hero-inner{width:100%;padding:clamp(32px,6vh,88px) 9.5vw}
+.case-study-hero h1{font-size:clamp(3.5rem,min(9vw,11vh),9rem);margin:0 0 clamp(18px,3vh,32px);text-wrap:balance}
+.case-study-lede{font-size:clamp(1rem,min(2vw,2.8vh),1.5rem);line-height:1.35}
+.case-study-actions{gap:8px;margin-top:clamp(18px,3vh,32px)}
+.case-study-action{min-height:44px;padding-inline:14px}
+@media(max-width:760px){.case-study-hero-inner{padding:clamp(24px,5vh,52px) 22px}.case-study-hero h1{font-size:clamp(2.75rem,min(15vw,7.5vh),5.5rem);margin-bottom:clamp(16px,2.5vh,24px)}.case-study-lede{font-size:clamp(1rem,min(4.5vw,2.4vh),1.15rem)}.case-study-actions{margin-top:clamp(16px,2.5vh,24px)}}
