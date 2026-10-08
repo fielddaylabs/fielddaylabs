@@ -22,7 +22,7 @@ export default function Home() {
     </section>
     <section className="statement"><div className="section-label">[ OUR POINT OF VIEW ]</div><div className="statement-copy"><p className="big-copy">The best products don’t ask for attention. <span>They earn a place in your life.</span></p><div className="statement-note">We’re building a small, focused company around a simple idea: useful can also feel alive.</div></div></section>
     <section id="work" className="work"><div className="work-head"><div className="section-label">[ SELECTED WORK ]</div><p>Three products. One point of view.<br />More to come.</p></div>{projects.map((project, i) => <Project key={project.name} {...project} i={i} />)}</section>
-    <section className="closing"><div className="closing-top"><span>FIELD DAY LABS / 2026</span><span>BUILT WITH INTENT</span></div><h2>Come out<br /><em>and play.</em></h2><a href="mailto:hello@fielddaylabs.com" className="email-link">hello@fielddaylabs.com <span>↗</span></a><div className="closing-foot"><span>© FIELD DAY LABS LLC</span><span>SOUTH CAROLINA · USA</span></div></section>
+    <section className="closing"><div className="closing-top"><span>FIELD DAY LABS / 2026</span><span>BUILT WITH INTENT</span></div><h2>Come out<br /><em>and play.</em></h2><a href="mailto:hello@fielddaylabs.com" className="email-link">hello@fielddaylabs.com <span>↗</span></a><a href="/work/algolia-agent-handoff/" className="collaboration-link">Read our collaboration with Authors Collective <span>↗</span></a><div className="closing-foot"><span>© FIELD DAY LABS LLC</span><span>SOUTH CAROLINA · USA</span></div></section>
   </main>
 }
 
