@@ -11,7 +11,7 @@ canonicalUrl: https://www.fieldday.dev/work/algolia-agent-handoff/
 # articleUrl: https://www.algolia.com/blog/...
 ctas:
   - label: Open the demo
-    href: https://authorscollective.org/agent-handoff/
+    href: https://specialized-agent-handoff.authorscollective.org/
   - label: Visit Authors Collective
     href: https://authorscollective.org/work/algolia-agent-handoff/
 facts:
@@ -56,4 +56,4 @@ This is an explanatory demo, not a claim that every agent platform provides nati
 
 ## Keep exploring
 
-Read the [Authors Collective attribution](https://authorscollective.org/work/algolia-agent-handoff/) or [open the public example](https://authorscollective.org/agent-handoff/) to see the boundary in context.
+Read the [Authors Collective attribution](https://authorscollective.org/work/algolia-agent-handoff/) or [open the public example](https://specialized-agent-handoff.authorscollective.org/) to see the boundary in context.
