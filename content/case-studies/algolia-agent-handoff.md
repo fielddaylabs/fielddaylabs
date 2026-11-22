@@ -6,7 +6,7 @@ lede: A small, native-feeling demo built for an article about coordinating speci
 year: "2026"
 client: Algolia
 category: Embed systems + technical content
-canonicalUrl: https://www.fieldday.dev/work/algolia-agent-handoff/
+canonicalUrl: https://fieldday.dev/work/algolia-agent-handoff/
 # Add the published Algolia article URL here when available:
 # articleUrl: https://www.algolia.com/blog/...
 ctas:

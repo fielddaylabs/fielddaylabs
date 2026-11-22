@@ -37,7 +37,7 @@ export default function CaseStudyTemplate({ study, html }: { study: CaseStudy; h
 
       </article>
 
-      <section className="closing case-study-closing"><div className="closing-top"><span>FIELD DAY LABS / {study.year}</span><span>BUILT WITH INTENT</span></div><h2>Good work<br /><em>travels well.</em></h2><a href="mailto:hello@fielddaylabs.com" className="email-link">hello@fielddaylabs.com <span aria-hidden="true">↗</span></a><div className="closing-foot"><span>© FIELD DAY LABS LLC</span><span>SOUTH CAROLINA · USA</span></div></section>
+      <section className="closing case-study-closing"><div className="closing-top"><span>FIELD DAY LABS / {study.year}</span><span>BUILT WITH INTENT</span></div><h2>Good work<br /><em>travels well.</em></h2><a href="mailto:jaden@fieldday.dev" className="email-link">jaden@fieldday.dev <span aria-hidden="true">↗</span></a><div className="closing-foot"><span>© FIELD DAY LABS LLC</span></div></section>
     </main>
   );
 }

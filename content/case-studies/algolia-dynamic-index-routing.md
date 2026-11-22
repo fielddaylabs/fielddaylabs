@@ -6,7 +6,7 @@ lede: One agent, two application contexts, and a server-owned route map that kee
 year: "2026"
 client: Algolia
 category: Embed systems + technical content
-canonicalUrl: https://www.fieldday.dev/work/algolia-dynamic-index-routing/
+canonicalUrl: https://fieldday.dev/work/algolia-dynamic-index-routing/
 # Add the published Algolia article URL here when available:
 # articleUrl: https://www.algolia.com/blog/...
 ctas:

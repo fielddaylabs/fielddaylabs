@@ -6,7 +6,7 @@ lede: One fixed query keeps the comparison focused. Five configurations show how
 year: "2026"
 client: Algolia
 category: Interactive demo + technical content
-canonicalUrl: https://www.fieldday.dev/work/algolia-agent-evaluation-widget/
+canonicalUrl: https://fieldday.dev/work/algolia-agent-evaluation-widget/
 ctas:
   - label: Try the evaluation widget
     href: https://authorscollective.org/applets/v1/would-you-ship-preview.html
